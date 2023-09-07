@@ -1,0 +1,107 @@
+.app {
+  height: 100vh;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+ 
+  
+  
+  padding-top: 2rem;
+  padding-right: 2rem;
+
+  
+}
+
+.main { 
+  display: flex;
+  flex-direction: column; 
+  width: 100%;
+  height: 100vh;
+  margin-top: 3rem;
+}
+
+.drawerFirst {
+  position: relative;
+  width: 4px;
+  height: 100%;
+  margin-top: 3rem;
+  background: lightgrey;
+  cursor: col-resize;
+}
+
+.handleFirst {
+  position: absolute;
+  background: gray;
+  width: 2px;
+  height: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-content{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content : space-between;
+  vertical-align: middle;
+  margin-top: 0.5rem;
+}
+
+.home{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  
+  overflow: hidden;
+}
+
+.header{
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  align-content: center;
+  width: 100%;
+ 
+  height: 3rem;
+  box-shadow: 0 0 5px 0 hsl(0deg 0% 40% / 60%);
+}
+
+.side-nav-container {
+  display: flex;
+  position:sticky;
+	background-color: var(--dark);
+  max-height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 93vh;
+  max-height: 100vh;
+  margin-top: 3rem;
+	color: var(--light);
+  background: rgb(196, 194, 194);
+
+}
+.side-nav-container-NX {
+	width: 1.8rem;
+  overflow: hidden;
+}
+
+.nav-upper
+  {
+	/* border: 2px solid white; */
+	display: grid;
+}
+
+.nav-heading {
+  
+  margin:0;
+}
+
+    
